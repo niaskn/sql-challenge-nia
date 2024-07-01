@@ -24,7 +24,7 @@ export const getStudent = (req: Request, res: Response) => {
                 return res.status(404).send("Student not found");
             }
             else {
-                res.status(200).send(result);
+                res.status(200).send(allStudent);
             }
         }
     )
